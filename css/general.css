@@ -18,8 +18,8 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    
     font-size: 100%;
+    font-family:futura;
 }
 
 img {
@@ -32,17 +32,14 @@ body {
 }
 
 .masthead {
-    background-color: maroon;
-    overflow:hidden; /* Forces parent to wrap around its child */
+    background-color: #16355D;
+    overflow:hidden; 
 }
 
 .logo {
-    height: 4.5rem;
+    height: 10rem;
     width:auto;
     margin: .5rem 5%;
-    
-    /*float: right;*/
-   /* margin:.5rem auto*/
 }
 
 article {
@@ -54,31 +51,33 @@ article {
 h1 {
     margin: 1.5rem 0;
     font-size: 5rem;
-    line-height: 4.5rem
+    line-height: 4.25rem;
 }
 
 h1 + p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
+    color: #16355D;
 }
 
 p {
-    line-height: 1.5rem;
+    line-height: 1.25rem;
     margin: 0 0 1.5rem;
 }
 
 figure {
-    margin: 0 auto 1.5rem; /* auto incase we want smaller*/
-    width: 100%; /* size can be samller than but not larger than 100% */
+    margin: 0 auto 1.5rem;
+    width: 100%; 
 }
 
 figcaption {
     font-size: .75rem;
     margin: .5rem 0 0;
+    color: #16355D;
 }
 
 footer {
-    background-color: brown;
+    background-color: #16355D;
     overflow: hidden;
 }
 
